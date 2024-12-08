@@ -1,32 +1,31 @@
-Plugins development and modification.  
+# Plugins Development and Modification
 
-### Список плагинов Wordpress:
-
+### List of WordPress Plugins:
 
 ---
 
-### Плагин - Post Manager OOP Plugin
+### Plugin - Post Manager OOP Plugin  
 [Description](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation/README.md) | [Code - GitHub](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation) | [Screenshot](https://github.com/DimaWide/wp-plugins/blob/main/post-manager-ai-generation/screencapture.png)
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
 
 ---
 
-### Плагин - NOWPayments Integration for WordPress
+### Plugin - NOWPayments Integration for WordPress  
 [Description](https://github.com/DmitriyChiroky/wp-plugins-new/tree/main/nowpayments-integration/README.md) | [Code - GitHub](https://github.com/DmitriyChiroky/wp-plugins-new/tree/main/nowpayments-integration)
 
-Плагин для интеграции API NOWPayments с WordPress, позволяющий пользователям совершать платежи с помощью Bitcoin, Ethereum, Solana и более 160 других криптовалют через NOWPayments.
+A plugin for integrating the NOWPayments API with WordPress, allowing users to make payments using Bitcoin, Ethereum, Solana, and over 160 other cryptocurrencies through NOWPayments.
 
 ---
 
-### Плагин - Bob Single Sync Info
+### Plugin - Bob Single Sync Info  
 [Description](https://github.com/DmitriyChiroky/wp-plugins-new/tree/main/bob-single-sync-info/README.md) | [Code - GitHub](https://github.com/DmitriyChiroky/wp-plugins-new/tree/main/bob-single-sync-info)
 
-Плагин для синхронизации данных об отелях из сервисов Google Place Details, TripAdvisor, SerpApi, для получения необходимой информации и формирования рейтинга.  
+A plugin for syncing hotel data from services like Google Place Details, TripAdvisor, and SerpApi to gather necessary information and generate ratings.
 
 ---
 
-### Плагин - WooCommerce Masonix Gateway
+### Plugin - WooCommerce Masonix Gateway  
 [Description](https://github.com/DmitriyChiroky/wp-plugins-new/tree/main/woocommerce-masonix-gateway/README.md) | [Code - GitHub](https://github.com/DmitriyChiroky/wp-plugins-new/tree/main/woocommerce-masonix-gateway)
 
-Плагин WooCommerce Masonix Gateway интегрирует платежный сервис Masonix с WooCommerce, позволяя пользователям бесшовно обрабатывать платежи через платформу Masonix.
+The WooCommerce Masonix Gateway plugin integrates the Masonix payment service with WooCommerce, allowing users to seamlessly process payments through the Masonix platform.
