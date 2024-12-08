@@ -1,44 +1,40 @@
 # NOWPayments Integration for WordPress
 
-## Описание плагина
+## Plugin Description
 
-**Название плагина**: NOWPayments Integration  
-**Описание**: Плагин для интеграции API NOWPayments с WordPress, позволяющий пользователям совершать платежи за товары и услуги через NOWPayments.  
-**Версия**: 1.0  
-**Автор**: Dmitrij Shirokij  
+**Plugin Name**: NOWPayments Integration  
+**Description**: A plugin for integrating the NOWPayments API with WordPress, allowing users to make payments for goods and services via NOWPayments.  
+**Version**: 1.0  
+**Author**: Dmitrij Shirokij  
 
-## Функциональность плагина
+## Plugin Functionality
 
-Плагин обеспечивает следующие функции:
+The plugin provides the following features:
 
-1. **Создание заказов**: Плагин создает таблицу заказов в базе данных для хранения информации о платежах, включая статус, сумму и детали пользователя.
-  
-2. **Отправка уведомлений по электронной почте**: После создания заказа пользователю отправляется электронное письмо с подтверждением, используя настраиваемый шаблон.
+1. **Order Creation**: The plugin creates an orders table in the database to store payment information, including status, amount, and user details.
 
-3. **Интеграция с NOWPayments API**: Плагин обрабатывает запросы к NOWPayments для создания платежей и обработки уведомлений о статусе платежей (IPN).
+2. **Email Notifications**: After an order is created, the user receives a confirmation email using a customizable template.
 
-4. **Имитация платежей**: Для администраторов плагин может эмулировать успешные платежи, чтобы упростить тестирование.
+3. **Integration with NOWPayments API**: The plugin handles requests to NOWPayments for payment creation and processes payment status notifications (IPN).
 
-5. **Обработка статуса платежей**: Плагин обновляет статус заказа в зависимости от ответа от NOWPayments и выполняет соответствующие действия (например, активация постов, отправка уведомлений).
+4. **Payment Simulation**: For administrators, the plugin can simulate successful payments to facilitate testing.
 
-6. **Создание административной страницы для заказов**: Плагин добавляет страницу "Orders" в меню админки WordPress, где администратор может управлять заказами, просматривать информацию по заказам и имитировать платежи..
+5. **Payment Status Handling**: The plugin updates the order status based on the response from NOWPayments and takes corresponding actions (e.g., post activation, sending notifications).
 
-## Разбор кода
-- **Создание таблицы заказов**: Использует функции базы данных WordPress для создания и управления пользовательской таблицей заказов при активации плагина.
-- **Создание платежа**: Реализует функции AJAX для создания запросов на платеж и безопасной обработки пользовательских данных.
-- **Обратный вызов IPN**: Регистрирует конечную точку REST API для обработки входящих уведомлений о платежах от NOWPayments.
-- **Функциональность электронной почты**: Включает функцию для отправки подтверждений по электронной почте с настраиваемым шаблоном, включенным в директорию плагина.
-- **Безопасность**: Обеспечивает безопасность через проверку nonce и проверки HMAC для обратных вызовов, защищая от несанкционированного доступа.
-- **Создание страницы заказов в админке**: Функция np_add_admin_page() создает страницу "Orders" в меню администратора. На этой странице администратор может просматривать заказы.
+6. **Admin Order Page**: The plugin adds an "Orders" page to the WordPress admin menu where administrators can manage orders, view order details, and simulate payments.
 
-Плагин используется как модуль для темы Pumb.Black.
+## Code Overview
+- **Order Table Creation**: Uses WordPress database functions to create and manage a custom order table upon plugin activation.
+- **Payment Creation**: Implements AJAX functions to create payment requests and securely handle user data.
+- **IPN Callback**: Registers a REST API endpoint to handle incoming payment notifications from NOWPayments.
+- **Email Functionality**: Includes a function to send confirmations via email with a customizable template located within the plugin directory.
+- **Security**: Ensures security through nonce verification and HMAC checks for callbacks, protecting against unauthorized access.
+- **Admin Order Page Creation**: The function `np_add_admin_page()` creates an "Orders" page in the admin menu. On this page, the administrator can view orders.
 
-<img src="https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/payment-page.jpg" alt="image">
-<img src="https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/np-orders-page.jpg" alt="image">
-<img src="https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/order-page-front.jpg" alt="image">
+The plugin is used as a module for the Pumb.Black theme.
 
+## Screenshots
 
-
-
-
-
+![Payment Page](https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/payment-page.jpg)  
+![Orders Page](https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/np-orders-page.jpg)  
+![Order Page Front](https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/order-page-front.jpg)
