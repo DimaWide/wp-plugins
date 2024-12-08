@@ -33,9 +33,9 @@
 
 Плагин используется как модуль для темы Pumb.Black.
 
-<img src="https://github.com/DmitriyChiroky/wp-plugins-new/blob/main/nowpayments-integration/payment-page.jpg" alt="image">
-<img src="https://github.com/DmitriyChiroky/wp-plugins-new/blob/main/nowpayments-integration/np-orders-page.jpg" alt="image">
-<img src="https://github.com/DmitriyChiroky/wp-plugins-new/blob/main/nowpayments-integration/order-page-front.jpg" alt="image">
+<img src="https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/payment-page.jpg" alt="image">
+<img src="https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/np-orders-page.jpg" alt="image">
+<img src="https://github.com/DimaWide/wp-plugins/blob/main/nowpayments-integration/order-page-front.jpg" alt="image">
 
 
 
