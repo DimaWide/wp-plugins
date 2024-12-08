@@ -2,6 +2,10 @@
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
 
+### Interface / Gif
+
+![Example of use](https://github.com/DimaWide/wp-plugins/blob/main/assets/post-manager-ai-generation/post-manager-OOP.gif)
+
 ## Features
 
 
