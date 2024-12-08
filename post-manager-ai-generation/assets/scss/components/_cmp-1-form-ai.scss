@@ -1,0 +1,131 @@
+.cmp-1-form-ai {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    #aiml-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #aiml-form label {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 8px;
+        margin-top: 6px;
+        text-transform: uppercase;
+    }
+
+    #prompt {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:disabled {
+            cursor: auto;
+        }
+    }
+
+    button[type="submit"]:not(.blink):hover {
+        background-color: #45a049;
+    }
+
+
+
+
+
+
+    #result-container.hidden {
+        display: none;
+    }
+
+    #result-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #result-container form {
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    #result-container label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    #result-container input[type="text"] {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    #result-container button {
+        background-color: #007cba;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    #result-container button:hover {
+        background-color: #005f8a;
+    }
+
+    #result-container textarea {
+        height: 240px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        /* // resize: none; */
+        min-height: 54px;
+        margin-bottom: 15px;
+    }
+
+    #result-container #copy-button {
+        background-color: #28a745;
+        /* Green button for copy action */
+    }
+
+    #result-container #copy-button:hover {
+        background-color: #218838;
+        /* Darker green on hover */
+    }
+
+    #result-container .hidden {
+        display: none;
+        /* Hide elements with this class */
+    }
+}

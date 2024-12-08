@@ -1,0 +1,38 @@
+
+
+
+@media screen and (max-width: 782px) {
+  .toplevel_page_post-manager-oop #wpcontent {
+      padding: 0 15px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .cmp-3-posts .cmp3-list >li {
+      flex-direction: column;
+      row-gap: 20px;
+  }
+
+  .cmp-3-posts .cmp3-item-btns {
+      margin-left: 0;
+  }
+
+  .cmp-3-posts .cmp3-item-img {
+      height: auto;
+      min-height: 150px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .cmp-3-posts .cmp3-item-content {
+      flex-direction: column;
+      row-gap: 20px;
+  }
+
+  .cmp-3-posts .cmp3-item-img {
+      width: 100%;
+      max-width: unset;
+  }
+}
