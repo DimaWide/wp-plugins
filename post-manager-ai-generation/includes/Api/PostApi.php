@@ -14,8 +14,6 @@ class PostApi {
         add_action('wp_ajax_nopriv_openai_generate_ai_text', [$this, 'openai_generate_ai_text']);
     }
 
-
-
     public function register_rest_routes() {
         register_rest_route('post-manager-oop/v1', '/posts', array(
             'methods' => 'GET',
@@ -210,7 +208,7 @@ class PostApi {
         check_ajax_referer('aiml_generate_nonce', 'security');
         $prompt = sanitize_text_field($_POST['prompt']);
 
-        $api_request_limit = 5;
+        $api_request_limit = 20;
         $ip_address        = $_SERVER['REMOTE_ADDR'];
         $transient_key     = 'api_request_count_' . md5($ip_address);
         $api_request_count = get_transient($transient_key);
