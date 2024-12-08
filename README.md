@@ -6,7 +6,7 @@ Plugins development and modification.
 ---
 
 ### Плагин - Post Manager OOP Plugin
-[Description](httpshttps://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation/README.md) | [Code - GitHub](httpshttps://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation) | [Screenshot](https://github.com/DimaWide/wp-plugins/blob/main/post-manager-ai-generation/screencapture.png)
+[Description](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation/README.md) | [Code - GitHub](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation) | [Screenshot](https://github.com/DimaWide/wp-plugins/blob/main/post-manager-ai-generation/screencapture.png)
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
 
