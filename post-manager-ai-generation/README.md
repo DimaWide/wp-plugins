@@ -4,7 +4,7 @@ This WordPress plugin provides functionality for managing posts via REST API and
 
 ### Interface / Gif
 
-![Example of use](https://github.com/DimaWide/wp-plugins/blob/main/assets/post-manager-ai-generation/post-manager-OOP.gif)
+![Example of use](https://github.com/DimaWide/wp-plugins/tree/main/assets/post-manager-ai-generation/post-manager-OOP.gif)
 
 ## Features
 
