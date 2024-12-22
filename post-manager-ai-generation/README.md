@@ -1,4 +1,4 @@
-# Post Manager OOP Plugin
+# Post Manager
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
 
