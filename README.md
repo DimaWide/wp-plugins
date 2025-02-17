@@ -6,7 +6,7 @@
 ---
 
 ### Plugin - Auth System Wp
-[Description](https://github.com/DimaWide/07-pet-auth-system-wp/README.md) | [Code - GitHub](https://github.com/DimaWide/07-pet-auth-system-wp) | [Screenshot](https://github.com/DimaWide/07-pet-auth-system-wp/blob/main/assets/img/login.png)
+[Description](https://github.com/DimaWide/07-pet-auth-system-wp) |  [Screenshot](https://github.com/DimaWide/07-pet-auth-system-wp/blob/main/assets/img/login.png)
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
 
