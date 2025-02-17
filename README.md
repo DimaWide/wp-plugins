@@ -13,7 +13,7 @@ This project is a **custom authentication system for WordPress**, including user
 ---
 
 ### Plugin - Post Manager OOP Plugin & AI API integration 
-[Description](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation/README.md) | [Code - GitHub](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation) | [Screenshot](https://github.com/DimaWide/wp-plugins/blob/main/post-manager-ai-generation/screencapture.png)
+[Description](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation/README.md) | [Screenshot](https://github.com/DimaWide/wp-plugins/blob/main/post-manager-ai-generation/screencapture.png)
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
 
