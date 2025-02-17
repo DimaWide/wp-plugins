@@ -8,11 +8,11 @@
 ### Plugin - Auth System Wp
 [Description](https://github.com/DimaWide/07-pet-auth-system-wp) |  [Screenshot](https://github.com/DimaWide/07-pet-auth-system-wp/blob/main/assets/img/login.png)
 
-This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
+This project is a **custom authentication system for WordPress**, including user registration, login, and profile management.
 
 ---
 
-### Plugin - Post Manager OOP Plugin  
+### Plugin - Post Manager OOP Plugin & AI Api integration 
 [Description](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation/README.md) | [Code - GitHub](https://github.com/DimaWide/wp-plugins/tree/main/post-manager-ai-generation) | [Screenshot](https://github.com/DimaWide/wp-plugins/blob/main/post-manager-ai-generation/screencapture.png)
 
 This WordPress plugin provides functionality for managing posts via REST API and includes integration with an external AI service for text generation.
